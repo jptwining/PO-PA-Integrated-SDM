@@ -8,7 +8,7 @@ Below you fill find descriptions of each folder in this repository and files con
 
 # The data folder (./data)
 
-This folder has nine files.
+This folder has ten files.
 
 **1. allNY_10kmgrid_alllandscapecovs_final.csv**
 
