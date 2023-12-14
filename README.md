@@ -66,8 +66,8 @@ This file contains all the mammal species presence-only detections compiled from
 
 # The model folder (./models)
 
-The models are coded up via the nimble package version 0.13.1 (de Valpine et al. 2022). 
-Dec
+The models are coded up via the nimble package version 0.13.1 (de Valpine et al. 2022).
+
 **1. nimble_ppp_integrated_model_bear_10km_yearindexed_randomeffects_centrered.R**
 
 This is the nimble IPPP model that is fit to the black bear data files above. The code is commented out to describe each part of the model.
