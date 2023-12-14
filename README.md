@@ -8,11 +8,13 @@ Below you fill find descriptions of each folder in this repository and files con
 
 # The data folder (./data)
 
-This folder has x files.
+This folder has nine files.
 
 **1. allNY_10kmgrid_alllandscapecovs_final.csv**
 
 This file contains all of the summarized spatial covariate data used in the analysis. Each row is a different 10km 2 pixel in New York State, each column is a covariate, and each cell is a value.
+
+The covariates used in the analysis.
 
 | **Covariate**           | **Description**                                                                       | **Source**                                                                                              |
 |-------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -21,10 +23,10 @@ This file contains all of the summarized spatial covariate data used in the anal
 | Mixed                   | Proportion of a 10 km2 grid cell made up of mixed forest                              | NLCD, 2019 (https://www.mrlc.gov/data/nlcd-2019-land-cover-conus)                                       |
 | Pasture                 | Proportion of a 10 km2 grid cell made up of pasture                                   | NLCD, 2019 (https://www.mrlc.gov/data/nlcd-2019-land-cover-conus)                                       |
 | Cultivated.Crops        | Proportion of a 10 km2 grid cell made up of cultivated crops                          | NLCD, 2019 (https://www.mrlc.gov/data/nlcd-2019-land-cover-conus)                                       |
-| road_density            | Mean number of km of road per km 2 in each grid cell                                  | calculated from primary and secondary roads raster provided by the NYSDEC, hosted on the githu          |
-| elevation               | Mean elevation (m) of the 10 km2 grid cell                                            | calculated from Digital Elevation Models of New York State provided by the NYSDEC, hosted on the github |
+| road_density            | Mean number of km of road per km 2 in each grid cell                                  | calculated from primary and secondary roads raster provided by the NYSDEC                               |
+| elevation               | Mean elevation (m) of the 10 km2 grid cell                                            | calculated from Digital Elevation Models of New York State provided by the NYSDEC                       |
 | forest_edge             | Edge density of combined class of all forest                                          | NLCD, 2019 (https://www.mrlc.gov/data/nlcd-2019-land-cover-conus)                                       |
-| PO_join_count_truncated | density of presence-only points (all mammals from online repositories from 2013-2021) | calculated from all online repositories, hosted on github                                               |
+| PO_join_count_truncated | density of presence-only points (all mammals from online repositories from 2013-2021) | calculated from all online repositories, hosted on github (/data/Allcompiled_POdata_NYMS_noduplicates)  |
 
 **2. allNY_2016-2018_bearPAdata_pixelID_10kmgrid_final.csv**
 
