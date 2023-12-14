@@ -10,7 +10,7 @@ Below you fill find descriptions of each folder in this repository and files con
 
 This folder has x files.
 
-**1. allNY_10kmgrid_alllandscapecovs.csv**
+**1. allNY_10kmgrid_alllandscapecovs_final.csv**
 
 This file contains all of the summarized spatial covariate data used in the analysis. Each row is a different 10km 2 pixel in New York State, each column is a covariate, and each cell is a value.
 
@@ -26,11 +26,11 @@ This file contains all of the summarized spatial covariate data used in the anal
 | forest_edge             | Edge density of combined class of all forest                                          | NLCD, 2019 (https://www.mrlc.gov/data/nlcd-2019-land-cover-conus)                                       |
 | PO_join_count_truncated | density of presence-only points (all mammals from online repositories from 2013-2021) | calculated from all online repositories, hosted on github                                               |
 
-**2. allNY_2016-2018_bearPAdata_pixelID_10kmgrid_remake.csv**
+**2. allNY_2016-2018_bearPAdata_pixelID_10kmgrid_final.csv**
 
 This file contains all the detection/non-detection data for black bears collected during summer surveys from 2016-2018 in the southern tier of New York State. Each row is a site, each column is an occasion, each cell is a detection/non-detection record.
 
-**3. allNY_2016_2018_bearPOrecord_pixelID_10kmgrid_noweeklydups_noinaturalist.csv**
+**3. allNY_2016_2018_bearPOrecord_pixelID_10kmgrid_noweeklydups_final.csv**
 
 This file contains all the presence-only data used in this analysis for black bears  (maximum 1 per 10 km2 pixel per week) between the years 2016-2018 both from public online repositories and iSeeMammals, a citizen science bear monitoring project run by Cornell University
 
