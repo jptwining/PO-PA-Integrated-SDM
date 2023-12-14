@@ -60,6 +60,9 @@ This file contains all the detection/non-detection data for bobcats collected du
 
 This file contains all the presence-only data used in this analysis for bobcats (maximum 1 per 10 km2 pixel per week) between the years 2013-2021 both from public online repositories
 
+**10. Allcompiled_POdata_NYMS_noduplicates.csv**
+
+This file contains all the mammal species presence-only detections compiled from New York Mammal Survey which draws records from GBIF, iNaturalist, and emammal (https://www.nynhp.org/projects/statewide-mammal-survey/)
 
 # The model folder (./models)
 
