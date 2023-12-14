@@ -71,7 +71,7 @@ This is the nimble IPPP model that is fit to the black bear data files above. Th
 
 This is the nimble IPPP model that is fit to the coyote data files above. The code is commented out to describe each part of the model.
 
-**3. bobcat_nimble_integrated_model_10km_indexingoveryear_randomeffects_centered**
+**3. nimble_ppp_integrated_model__bobcat_10km_indexingoveryear_randomeffects_centered**
 
 This is the nimble IPPP model that is fit to the bobcat data files above. The code is commented out to describe each part of the model.
 
